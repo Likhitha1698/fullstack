@@ -1,0 +1,21 @@
+
+body
+{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#abouthogwarts
+h2{
+    margin-bottom:25px;
+}
+.img-wrap{
+    width: 125%;
+}
+.img-wrap img{
+width:125%;
+padding:10px;
+border-radius:50px;
+box-shadow:0 0 10px #999;
+}
