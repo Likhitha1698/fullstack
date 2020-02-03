@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+THIS IS INTRODUCTION TO WEBPAGE
+<style>
+h1{
+ text-align:center;
+ color:blue;
+ background-color:pink;
+ font-size:55px;
+}
+<link rel="stylesheet" type="text/css"  href="page1.css"> 
+</head>
+<body>
+<p>PENGUIN</p>
+<a href="page.html">
+<img src="penguins.jpg" heigth="50" width="50"/><br/>
+click here
+</a>
+<ul type="circle">    //types=circle,square,disc
+  <li>GITAM</li>
+  <li>UNIVERSITY</li>
+  <li>HYDERABAD</li>
+</ul>
+<ol type="i">
+  <li>CSE</li>   //types=a,A,1,I,i
+  <li>ECE</li>
+  <li>MECH</li>
+</ol>
+<table>
+<tr>
+ <img src="hospital.jpg" heigth="100" width="100"/>
+<tr/>
+<tr>
+ HOSPITAL MANAGEMENT SYSTEM
+</tr>
+</table>
+<table>
+<tr>
+<img src="3.jpg" heigth="100" width="100"/>
+</tr>
+<tr>
+HOSPITAL
+</tr>
+</table>
+<h1>
+ line 1
+</h1>
+</body>
+</html

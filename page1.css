@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+THIS IS INTRODUCTION TO WEBPAGE
+<style>
+#a1{
+ text-align:center;
+ color:blue;
+ background-color:pink;
+ font-size:55px;
+}
+</style>
+</head>
+<body>
+<h1 id="a1">line1</h1>
+<h2 id="a1">line 2</h2>
+</body>
+<html>

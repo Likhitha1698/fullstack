@@ -1,0 +1,26 @@
+.a1{
+background-color:blue;
+}
+.a2{
+	background-image:url('12.jpeg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+.a3
+{ 
+	border-style:solid;
+	border-width:10px;
+	border-color:brown;
+	border-left:brown;
+	border-right:brown;
+	border-radius:25px;
+	margin-right:50px;
+	margin-left:100px;
+	margin-top:30px;
+	margin-bottom:1px;
+	padding-left:50px;
+	padding-right:20px;
+	padding-top:30px;
+	padding-bottom:50px;
+}
