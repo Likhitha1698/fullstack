@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script>
+                $(document).ready(function()
+        {
+            $("#btn1").mouseover(function()
+                {
+                    $(".a2").slideToggle();
+                    $(".a3").slideUp();
+                }
+            );
+            $("#btn1").mouseout(function()
+                {
+                    $(".a2").slideToggle();
+                    $(".a3").slideUp();
+                }
+            );
+
+            $("#btn2").mouseover(function()
+                {
+                    $(".a1").slideToggle();
+                    $(".a3").slideUp();
+                }
+            );
+            $("#btn2").mouseout(function()
+                {
+                    $(".a1").slideToggle();
+                    $(".a3").slideUp();
+                }
+            );
+
+            $("#btn3").mouseover(function()
+                {
+                    $(".a2").slideToggle();
+                    $(".a1").slideUp();
+
+                }
+            );
+            $("#btn3").mouseout(function()
+                {
+                    $(".a2").slideToggle();
+                    $(".a1").slideUp();
+                }
+            );
+
+
+        });
+
+</script>
+<style>
+.
+{
+    visibility:hidden;
+    display:none;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col-mod-4">
+            <button type="button" class="btn btn-primary btn-lg btn-block a1" id="btn1">College details</button>
+            <div class="k"></div>
+            <h1>collegedetails</h1>
+</div>
+        </div>
+    </div>
+</br>
+    <div class="container">
+        <div class="row">
+        <div class="col-mod-4">
+            <button type="button" class="btn btn-primary btn-lg btn-block a2"id="btn2">Fee structure</button>
+    <div class="k"></div>
+    <h1>fee structure</h1>
+</div>
+        </div>
+    </div>
+</br>
+    <div class="container">
+        <div class="row">
+        <div class="col-mod-4">
+            <button type="button" class="btn btn-primary btn-lg btn-block a3 "id="btn3">Vision of college</button>
+            <div class="k"></div>
+            <h1>Vision of college</h1>
+</div>
+        </div>
+    </div>
+</body>
+</html>
